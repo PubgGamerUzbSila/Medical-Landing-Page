@@ -35,7 +35,7 @@
 
 .app {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   font-family: Poppins;
   transition: 0.5s all;
 }
@@ -43,7 +43,7 @@
   display: flex;
   align-items: center;
   gap: 200px;
-  margin-left: 300px;
+  justify-content: center;
 }
 .app #header .right {
   display: flex;
@@ -196,6 +196,7 @@
   text-align: center;
 }
 .app #contact-Us .bottom {
+  margin-bottom: 100px;
   margin-top: -450px;
 }
 .app #contact-Us .bottom h1,
@@ -1092,4 +1093,255 @@
     bottom: 0px;
     left: 43%;
   }
+}
+.app #footer {
+  margin-top: 200px;
+  text-align: center;
+}
+.app #footer .top {
+  display: flex;
+  gap: 120px;
+  justify-content: space-evenly;
+}
+.app #footer .top .div1 .social-menu {
+  display: flex;
+  justify-content: center;
+}
+.app #footer .top .div1 .social-btn {
+  list-style: none;
+  width: 60px;
+  height: 60px;
+  background: #4e4040;
+  margin: 15px;
+  border-radius: 30%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 10px -5px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+  z-index: 10px;
+}
+.app #footer .top .div1 .social-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.app #footer .top .div1 .social-btn:hover a {
+  color: #fff;
+}
+.app #footer .top .div1 .social-menu .social-btn::before {
+  content: attr(tooltip);
+  position: absolute;
+  top: 0;
+  font-size: 0.9em;
+  font-weight: bold;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: auto;
+  background: #4e4040;
+  padding: 10px;
+  color: #000;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+}
+.app #footer .top .div1 .social-menu .social-btn::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  opacity: 0;
+  background: #4e4040;
+  transform: rotate(45deg);
+  left: 20%;
+  z-index: -2;
+  transition: all 0.3s ease-out;
+}
+.app #footer .top .div1 .social-menu .social-btn:hover::before {
+  top: -45px;
+  opacity: 1;
+}
+.app #footer .top .div1 .social-btn:hover::after {
+  top: -12px;
+  opacity: 1;
+}
+.app #footer .top .div1 .facebook a {
+  color: #3b5999;
+}
+.app #footer .top .div1 .facebook:hover,
+.app #footer .top .div1 .facebook:hover .social-btn:before,
+.app #footer .top .div1 .facebook:hover .social-btn:after {
+  background: #3b5999;
+}
+.app #footer .top .div1 .instagram a {
+  color: #962fbf;
+}
+.app #footer .top .div1 .instagram:hover,
+.app #footer .top .div1 .instagram:hover .social-btn:before,
+.app #footer .top .div1 .instagram:hover .social-btn:after {
+  background: #962fbf;
+}
+.app #footer .top .div1 .pinterest a {
+  color: #c8232c;
+}
+.app #footer .top .div1 .pinterest:hover,
+.app #footer .top .div1 .pinterest:hover .social-btn:before,
+.app #footer .top .div1 .pinterest:hover .social-btn:after {
+  background: #c8232c;
+}
+.app #footer .top .div1 .linkedin a {
+  color: #0072b1;
+}
+.app #footer .top .div1 .linkedin:hover,
+.app #footer .top .div1 .linkedin:hover .social-btn:before,
+.app #footer .top .div1 .linkedin:hover .social-btn:after {
+  background: #0072b1;
+}
+.app #footer .top .div2 {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+.app #footer .top .div2 .h2 {
+  text-align: start;
+  color: var(--Primary-Black, #062126);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.app #footer .top .div2 p {
+  text-align: start;
+  color: var(--black-7, rgba(6, 33, 38, 0.6));
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px;
+}
+.app #footer .top .div3 {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+.app #footer .top .div3 .h2 {
+  color: var(--Primary-Black, #062126);
+  font-family: Poppins;
+  font-size: 24px;
+  text-align: start;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.app #footer .top .div3 p {
+  color: var(--black-7, rgba(6, 33, 38, 0.6));
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  text-align: start;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px;
+}
+.app #footer .top .div4 .h2 {
+  color: var(--Primary-Black, #062126);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.app #footer .top .div4 p {
+  color: var(--black-7, rgba(6, 33, 38, 0.6));
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 171.857%;
+  width: 300.934px;
+  text-align: start;
+}
+.app #footer .top .div4 a {
+  color: inherit;
+}
+.app #footer .top .div4 a:hover {
+  color: #7f8ff4;
+}
+.app #footer .top .div4 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app #footer .top .div4 .uppercase {
+  text-transform: uppercase;
+}
+.app #footer .top .div4 .btn {
+  display: inline-block;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+}
+.app #footer .top .div4 .btn--primary {
+  background: #7f8ff4;
+  color: #fff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 12px 36px;
+}
+.app #footer .top .div4 .btn--primary:hover {
+  background: #6c7ff2;
+}
+.app #footer .top .div4 .btn--primary:active {
+  background: #7f8ff4;
+  box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+.app #footer .top .div4 .btn--inside {
+  margin-left: -96px;
+}
+.app #footer .top .div4 .form__field {
+  width: 360px;
+  background: #fff;
+  color: #a3a3a3;
+  font: inherit;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: 0;
+  padding: 22px 18px;
+}
+.app #footer .middle {
+  width: 1180px;
+  height: 1px;
+  background: rgba(6, 33, 38, 0.1);
+  margin: auto;
+  margin-top: 40px;
+}
+.app #footer .bottom {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.app #footer .bottom pp {
+  color: var(--black-5, rgba(6, 33, 38, 0.4));
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.app #footer .bottom p {
+  color: var(--black-5, rgba(6, 33, 38, 0.4));
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 400px;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */
