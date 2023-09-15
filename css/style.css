@@ -30,12 +30,63 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 .app {
   text-align: center;
   padding: 10px;
   font-family: Poppins;
+  transition: 0.5s all;
+}
+.app #header {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  margin-left: 300px;
+}
+.app #header .right {
+  display: flex;
+  align-items: center;
+}
+.app #header .right nav ul {
+  display: inline-flex;
+  gap: 32px;
+}
+.app #header .right nav ul li a {
+  color: var(--black-7, rgba(6, 33, 38, 0.6));
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.app #header .right nav ul li a:hover {
+  color: var(--e-5661-e, #E5661E);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.app #header .right .button {
+  display: inline-flex;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 350px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 25px;
+  border-radius: 40px;
+  background: #24BEE0;
+  color: var(--white, #FFF);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .app #main img {
   width: 1920px;

@@ -33,13 +33,71 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 .app {
     text-align: center;
     padding: 10px;
     font-family: Poppins;
+    transition: 0.5s all;
+    #header{
+        display: flex;
+        align-items: center;
+        gap: 200px;
+        margin-left: 300px;
+        .left{
 
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            nav{
+                ul{
+                    display:inline-flex;
+                    gap: 32px;
+                    li{
+                        a{
+                            color: var(--black-7, rgba(6, 33, 38, 0.60));
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal; 
+                        }
+                        a:hover{
+                            color: var(--e-5661-e, #E5661E);
+                            font-family: Poppins;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal; 
+                        }
+                    }
+                }
+            } 
+            .button{
+                display: inline-flex;
+                padding: 12px 30px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                margin-left: 350px;
+                border: none;
+                cursor: pointer;
+                margin-bottom: 25px;
+                border-radius: 40px;
+                background: #24BEE0;
+                color: var(--white, #FFF);
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;   
+            }
+        }
+
+    }
     #main {
         img {
             width: 1920px;
@@ -158,7 +216,7 @@
                 }
                 .bottom22{
                     #text{
-                        
+
                         width: 776px;
                         height: 150px;
                         flex-shrink: 0;
