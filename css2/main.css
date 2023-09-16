@@ -662,7 +662,12 @@ h2{
   line-height: 112.5%; /* 54px */
   margin-top: 500px ; 
 }
-/* .topButtonWhyU */
+.topBottomWhyUs{
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  margin-top: 130px;
+}
 .divtopBottomWhyUs{
   display: block;
   text-align: start;
@@ -676,6 +681,25 @@ h2{
   font-weight: 600;
   line-height: 112.5%; /* 27px */ 
   margin-top: 20px;
+}
+
+.h3WhyUS{
+  color: var(--Primary-Black, #062126);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 112.5%;  
+}
+
+.pWhyUS{
+  color: var(--black-8, rgba(6, 33, 38, 0.70));
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.1%; /* 23.376px */
+  width: 308px; 
 }
 .pWhyUs{
   color: var(--black-8, rgba(6, 33, 38, 0.70));
