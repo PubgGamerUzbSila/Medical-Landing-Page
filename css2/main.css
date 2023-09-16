@@ -671,7 +671,13 @@ h2{
 .divtopBottomWhyUs{
   display: block;
   text-align: start;
-  padding: 5px;
+  padding: 20px;
+}
+.divtopBottomWhyUs:hover{
+  border-radius: 30px;
+  background: var(--white, #FFF);
+  box-shadow: 0px 24px 61px -14px rgba(15, 151, 181, 0.14);  
+  cursor: pointer; 
 }
 .h3WhyUs{
   color: var(--Primary-Black, #062126);
@@ -682,24 +688,48 @@ h2{
   line-height: 112.5%; /* 27px */ 
   margin-top: 20px;
 }
-
+.bottomBottomWhyUs{
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  margin-left: -55px;
+  margin-top: 96px;
+  text-align: start;
+}
+.divbottomBottomWhyUs{
+  padding: 20px; 
+}
+.divbottomBottomWhyUs:hover{
+  border-radius: 30px;
+  background: var(--white, #FFF);
+  box-shadow: 0px 24px 61px -14px rgba(15, 151, 181, 0.14);  
+  cursor: pointer;
+}
 .h3WhyUS{
   color: var(--Primary-Black, #062126);
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
+  margin-top: 20px;
   font-weight: 600;
   line-height: 112.5%;  
 }
+
 
 .pWhyUS{
   color: var(--black-8, rgba(6, 33, 38, 0.70));
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
+  margin-top: 20px;
+  text-align: start;
   font-weight: 400;
   line-height: 146.1%; /* 23.376px */
   width: 308px; 
+}
+.whyUsImg{
+  margin-top: 20px;
+  margin-bottom: 30px
 }
 .pWhyUs{
   color: var(--black-8, rgba(6, 33, 38, 0.70));
