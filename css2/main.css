@@ -638,3 +638,22 @@ h2{
 }
 
 /* Our Services end */
+
+/* ===================================== */
+
+/* Why Us? start */
+
+#whyUs{
+    /* justify-content: center; */
+}
+.h2WhyUs{
+  color: var(--Primary-Black, #062126);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112.5%; /* 54px */
+  margin-top: 500px ; 
+}
+
+/* Why Us? end */
