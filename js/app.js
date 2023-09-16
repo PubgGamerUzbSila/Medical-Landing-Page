@@ -8,3 +8,13 @@ function change() {
   } else buttonSendText.innerHTML = "SENDING";
   buttonSend.classList.toggle("actif");
 }
+
+
+
+
+
+
+
+// ====================================
+
+
