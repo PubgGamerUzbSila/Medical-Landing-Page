@@ -644,16 +644,48 @@ h2{
 /* Why Us? start */
 
 #whyUs{
-    /* justify-content: center; */
+  text-align: center;
+}
+.whyUsTop{
+  display: flex;
+  justify-content: center;
 }
 .h2WhyUs{
+  display: flex;
   color: var(--Primary-Black, #062126);
   font-family: Poppins;
+  margin-right: 1075px;
   font-size: 48px;
   font-style: normal;
+  text-align: center;
   font-weight: 700;
   line-height: 112.5%; /* 54px */
   margin-top: 500px ; 
+}
+/* .topButtonWhyU */
+.divtopBottomWhyUs{
+  display: block;
+  text-align: start;
+  padding: 5px;
+}
+.h3WhyUs{
+  color: var(--Primary-Black, #062126);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 112.5%; /* 27px */ 
+  margin-top: 20px;
+}
+.pWhyUs{
+  color: var(--black-8, rgba(6, 33, 38, 0.70));
+  font-family: Poppins;
+  font-size: 16px;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.1%; /* 23.376px */
+  width: 308px;  
 }
 
 /* Why Us? end */
